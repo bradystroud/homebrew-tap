@@ -1,6 +1,6 @@
 cask "browser" do
-  version "0.1.0"
-  sha256 "b4fd04eec7e3ff0e29950cf64f514f6c75861840b8b6e81bbd871ecc25643836"
+  version "0.1.1"
+  sha256 "46b4cbbfbe9e78a90b57d58da5a7aad6ecb409f7eaebd938507e9274bc78757a"
 
   url "https://github.com/bradystroud/browser/releases/download/v#{version}/Browser-#{version}.dmg"
   name "Browser"
@@ -16,6 +16,7 @@ cask "browser" do
   depends_on macos: :monterey
 
   app "Browser.app"
+  binary "#{appdir}/Browser.app/Contents/Resources/bin/browser"
 
   zap trash: [
     "~/Library/Application Support/Browser",
