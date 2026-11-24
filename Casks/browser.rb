@@ -1,6 +1,6 @@
 cask "browser" do
-  version "0.1.13"
-  sha256 "6e5330575b31753bee23962e0f75f19a55f24ad6885a7bd6f408c3275ff6ca56"
+  version "0.1.14"
+  sha256 "3a2d7e10401722e031d2f4b9a1a30ad958a6e8e04086d19ca65f17ff82ca4f15"
 
   url "https://github.com/bradystroud/browser/releases/download/v#{version}/Browser-#{version}.dmg"
   name "Browser"
